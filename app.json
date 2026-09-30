@@ -1,24 +1,40 @@
 {
   "expo": {
-    "name": "Perfil3_IvanBarrera",
+    "name": "Planetas DB",
     "slug": "Perfil3_IvanBarrera",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Master_Ball_(Ilustración).png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ivanbarrera.perfil3",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0B1026",
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundImage": "./assets/android-icon-background.png"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/Master_Ball_(Ilustración).png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#0B1026"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6ec56c7f-ca87-4ff6-a338-4b487dd92996"
+      }
     }
   }
 }
